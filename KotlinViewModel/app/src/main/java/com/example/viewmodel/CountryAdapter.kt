@@ -75,7 +75,7 @@ class CountryAdapter(val activity: Activity) :
             tvCapital.text="Capital "+data.capital
             tvRegion.text="Region "+data.region
             Glide.with(activity)
-                .load(data.flag)
+                .load(data.flags?.png)
                 .into(flagImage)
         }
     }
