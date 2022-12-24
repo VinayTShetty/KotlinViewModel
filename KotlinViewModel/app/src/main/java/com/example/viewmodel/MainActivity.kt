@@ -42,3 +42,7 @@ class MainActivity : AppCompatActivity() {
         viewModel.makeAPICall()
     }
 }
+
+/**
+ * Modified Code for New Version of Android Studio.
+ */
